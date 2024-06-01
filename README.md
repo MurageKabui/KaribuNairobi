@@ -1,2 +1,2 @@
 # KaribuNairobi
-Mockup for Karibu Nairobi Website 
+Mockup for Karibu Nairobi Website.
