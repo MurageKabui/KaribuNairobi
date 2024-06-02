@@ -19,7 +19,7 @@
 
             // Generate whatsapp link, if name is undefined, send message only..
             let encodedMessage = encodeURIComponent((name && name.trim() !== '') ? `My name is ${name}. ${message}` : message);
-            let whatsappLink = `https://wa.me/254757169030?text=${encodedMessage}`;
+            let whatsappLink = `https://wa.me/254700206280?text=${encodedMessage}`;
 
             window.open(whatsappLink, '_blank');
         }, 2000);

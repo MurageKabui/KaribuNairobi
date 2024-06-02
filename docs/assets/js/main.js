@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }, 1000);
       setTimeout(() => {
         preloader.remove();
-      }, 2000);
+      }, 1000);
     });
   }
 
@@ -154,7 +154,7 @@ document.addEventListener('DOMContentLoaded', () => {
    */
   function aos_init() {
     AOS.init({
-      duration: 1000,
+      duration: 700,
       easing: 'ease-in-out',
       once: true,
       mirror: false
