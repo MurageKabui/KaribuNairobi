@@ -1637,6 +1637,7 @@ i.bi {
     margin: 1em 0 0 0;
     padding: 1em;
     border-radius: 10px;
+    border: 1.5px dotted grey;
     background: #00000a;
     -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
