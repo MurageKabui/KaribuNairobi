@@ -9,10 +9,10 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('load', () => {
       setTimeout(() => {
         preloader.classList.add('loaded');
-      }, 1000);
+      }, 500);
       setTimeout(() => {
         preloader.remove();
-      }, 1000);
+      }, 500);
     });
   }
 
@@ -50,7 +50,6 @@ document.addEventListener('DOMContentLoaded', () => {
         mobileNavToogle();
       }
     });
-
   });
 
   /**

@@ -481,6 +481,27 @@ i.bi {
   }
 }
 
+/* Beautiful rainbow text */
+.rainbowtext {
+  background-image: linear-gradient(
+    90deg,
+    #f79533 0%,
+    #f37055 15%,
+    #ef4e7b 30%,
+    #a166ab 44%,
+    #5073b8 58%,
+    #1098ad 72%,
+    #07b39b 86%,
+    #6dba82 100%
+  );
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+/*  font-weight: 400;*/
+}
+
 /*--------------------------------------------------------------
 # Mobile Navigation
 --------------------------------------------------------------*/
@@ -528,7 +549,7 @@ i.bi {
 .navbar p:last-child {
   padding-top: 15px;
   text-align: center;
-  font-size: 9px;
+  font-size: 13px;
   color: rgba(255, 255, 255, 0.2);
 }
 
