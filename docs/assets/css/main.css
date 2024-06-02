@@ -390,6 +390,9 @@ i.bi {
     transition: 0.3s;
   }
 
+  .navbar p:last-child {
+  display: none;
+}
   .navbar a i,
   .navbar a:focus i {
     font-size: 12px;
@@ -490,6 +493,7 @@ i.bi {
     max-width: 400px;
     bottom: 0;
     transition: 0.3s;
+
     z-index: 9997;
   }
 
@@ -520,6 +524,14 @@ i.bi {
     transition: 0.3s;
   }
   
+  /* Additional CSS to style the last item in the navbar */
+.navbar p:last-child {
+  padding-top: 6px;
+  text-align: center;
+  font-size: 15px;
+  color: #f5f5f5;
+}
+
 
   .navbar a i,
   .navbar a:focus i {
