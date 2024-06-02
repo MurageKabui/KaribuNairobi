@@ -526,7 +526,7 @@ i.bi {
   
   /* Additional CSS to style the last item in the navbar */
 .navbar p:last-child {
-  padding-top: 6px;
+  padding-top: 15px;
   text-align: center;
   font-size: 9px;
   color: rgba(255, 255, 255, 0.2);
