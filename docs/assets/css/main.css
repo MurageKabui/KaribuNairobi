@@ -1210,10 +1210,12 @@ i.bi {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
 .hero {
     width: 100%;
     min-height: 30vh;
-    /*  background: #000;*/
     background-size: cover;
     position: relative;
     padding: 140px 0 60px 0;
@@ -1222,7 +1224,7 @@ i.bi {
 .hero h2 {
     margin: 0 0 10px 0;
     font-size: 38px;
-    font-weight: 700;
+    font-weight: bold;
     color: #fff;
     font-family: var(--font-secondary);
 }
@@ -1232,17 +1234,11 @@ i.bi {
     z-index: 1;
     padding: 0 5px;
     display: inline-block;
-}
-
-.hero h2 span:before {
-    content: "";
-    position: absolute;
-    height: 50%;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: var(--color-primary);
-    z-index: -1;
+    background: url('./KenyanFlag.png') no-repeat center center;
+    background-size: cover;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
 }
 
 .hero p {
