@@ -534,11 +534,14 @@ i.bi {
 
     /* Additional CSS to style the last item in the navbar */
     .navbar p:last-child {
-        padding-top: 15px;
-        text-align: center;
-        font-size: 13px;
-        color: rgba(255, 255, 255, 0.2);
-    }
+    width: 80%;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
+}
+
 
     .navbar a i,
     .navbar a:focus i {
