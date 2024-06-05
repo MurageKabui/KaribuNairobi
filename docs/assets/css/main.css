@@ -1234,7 +1234,7 @@ i.bi {
     padding: 0 5px;
     display: inline-block;
     background: url('./KenyanFlag.png') no-repeat center center;
-/*    background-size: cover;*/
+    background-size: cover;
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
