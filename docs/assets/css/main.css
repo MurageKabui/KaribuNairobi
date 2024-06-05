@@ -538,6 +538,7 @@ i.bi {
     padding-top: 15px;
     text-align: center;
     font-size: 13px;
+    font-style: italic;
     color: rgba(255, 255, 255, 0.5);
     margin: 0 auto;
 }
@@ -1239,7 +1240,9 @@ i.bi {
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
+
 }
+
 
 .hero p {
     color: rgba(255, 255, 255, 0.6);
