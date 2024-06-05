@@ -1236,6 +1236,8 @@ i.bi {
     background: url('./KenyanFlag.png') no-repeat center center;
     background-size: cover;
     color: transparent;
+    text-stroke: 0.4px #bbb;
+    -webkit-text-stroke: 0.4px #bbb;
     -webkit-background-clip: text;
     background-clip: text;
 /*    text-shadow: 0 0 1.5px #f5f5f5;*/
