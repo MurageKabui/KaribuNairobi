@@ -535,13 +535,13 @@ i.bi {
     /* Additional CSS to style the last item in the navbar */
     .navbar p:last-child {
     width: 80%;
-    padding-top: 15px;
+    padding-top: 20px;
     text-align: center;
     font-size: 13px;
     font-style: italic;
     color: rgba(255, 255, 255, 0.5);
     margin: 0 auto;
-    text-shadow: 0 0 1.5px #f5f5f5;
+    text-shadow: 0 0 1.3px #f5f5f5;
 }
 
 
@@ -1236,8 +1236,8 @@ i.bi {
     background: url('./KenyanFlag.png') no-repeat center center;
     background-size: cover;
     color: transparent;
-    text-stroke: 0.4px #bbb;
-    -webkit-text-stroke: 0.4px #bbb;
+    text-stroke: 0.4px silver;
+    -webkit-text-stroke: 0.4px silver;
     -webkit-background-clip: text;
     background-clip: text;
 /*    text-shadow: 0 0 1.5px #f5f5f5;*/

@@ -148,6 +148,13 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
+tippy('.shop', {
+    content: '<div style="text-align: center;"><img src="assets/img/KrbNrb Logo Black.jpg" alt="Shop Image" style="width: 100px; height: auto;"><p>Shop with us now!</p></div>',
+    allowHTML: true,
+    theme: 'light-border',
+});
+
+
   /**
    * Animation on scroll function and init
    */
@@ -163,5 +170,5 @@ document.addEventListener('DOMContentLoaded', () => {
     aos_init();
   });
 
-  
+
 });
