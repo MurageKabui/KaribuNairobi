@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 tippy('.shop', {
-    content: '<div style="text-align: center;"><img src="assets/img/KrbNrb Logo Black.jpg" alt="Shop Image" style="width: 100px; height: auto;"><p>Shop with us now!</p></div>',
+    content: '<div style="text-align: center;"><img src="assets/img/wapp2X256.png" alt="Shop Image" style="width: 200px; height: auto;"><p>Discover Cool Merch!</p></div>',
     allowHTML: true,
     theme: 'light-border',
 });

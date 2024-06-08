@@ -533,7 +533,7 @@ i.bi {
     }
 
     /* Additional CSS to style the last item in the navbar */
-    .navbar p:last-child {
+    .quotedtxt {
     width: 80%;
     padding-top: 20px;
     text-align: center;
