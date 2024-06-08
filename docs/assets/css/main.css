@@ -792,12 +792,18 @@ i.bi {
     margin-top: 0;
 }
 
+/*
 .gallery .gallery-item:nth-child(even):hover img {
     transform: rotate(-10deg);
 }
 
 .gallery .gallery-item:nth-child(odd):hover img {
     transform: rotate(5deg);
+}
+*/
+
+.gallery .gallery-item:hover img {
+    transform: scale(1.1);
 }
 
 .glightbox-clean .gslide-description {
