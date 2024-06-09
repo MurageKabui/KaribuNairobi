@@ -166,11 +166,12 @@ document.addEventListener('DOMContentLoaded', () => {
         content: `
         <div style="text-align: center;">
             <img src="assets/img/wapp2X256.png" alt="Shop Image" style="width: 200px; height: auto;">
-            <p>Discover <a href="https://karibunairobi.hustlesasa.shop" target="_blank" rel="noopener noreferrer">Cool Merch!</a></p>
+            <p><a href="https://karibunairobi.hustlesasa.shop" target="_blank" rel="noopener noreferrer">Continue</a></p>
         </div>
     `,
         allowHTML: true,
         trigger: 'click',
+        interactive: true,
         onShow(instance) {
             // Stop the click event from propagating to the Tippy instance
             instance.popper.querySelector('a').addEventListener('click', (event) => {
