@@ -149,19 +149,26 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Function to check if the user is on a mobile device
-    function isMobileDevice() {
-        return /Mobi|Android/i.test(navigator.userAgent);
-    }
+    // function isMobileDevice() {
+    //     return /Mobi|Android/i.test(navigator.userAgent);
+    // }
 
     // Determine the trigger based on the device
-    const trigger = isMobileDevice() ? 'click' : 'mouseenter focus';
+    // const trigger = isMobileDevice() ? 'click' : 'mouseenter focus';
 
+    // tippy('.shop', {
+    //     content: '<div style="text-align: center;"><img src="assets/img/wapp2X256.png" alt="Shop Image" style="width: 200px; height: auto;"><p href="https://karibunairobi.hustlesasa.shop">Discover Cool Merch!</p></div>',
+    //     allowHTML: true,
+    //     theme: 'light-border',
+    //     trigger: trigger,
+    // });
     tippy('.shop', {
-        content: '<div style="text-align: center;"><img src="assets/img/wapp2X256.png" alt="Shop Image" style="width: 200px; height: auto;"><p>Discover Cool Merch!</p></div>',
+        content: '<div style="text-align: center;"><img src="assets/img/wapp2X256.png" alt="Shop Image" style="width: 200px; height: auto;"><p>Discover <a href="https://karibunairobi.hustlesasa.shop" target="_blank" rel="noopener noreferrer">Cool Merch!</a></p></div>',
         allowHTML: true,
+        trigger: 'click',
         theme: 'light-border',
-        trigger: trigger,
     });
+
 
 
 
