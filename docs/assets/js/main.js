@@ -163,11 +163,22 @@ document.addEventListener('DOMContentLoaded', () => {
     //     trigger: trigger,
     // });
     tippy('.shop', {
-        content: '<div style="text-align: center;"><img src="assets/img/wapp2X256.png" alt="Shop Image" style="width: 200px; height: auto;"><p>Discover <a href="https://karibunairobi.hustlesasa.shop" target="_blank" rel="noopener noreferrer">Cool Merch!</a></p></div>',
+        content: `
+        <div style="text-align: center;">
+            <img src="assets/img/wapp2X256.png" alt="Shop Image" style="width: 200px; height: auto;">
+            <p>Discover <a href="https://karibunairobi.hustlesasa.shop" target="_blank" rel="noopener noreferrer">Cool Merch!</a></p>
+        </div>
+    `,
         allowHTML: true,
         trigger: 'click',
-        theme: 'light-border',
+        onShow(instance) {
+            // Stop the click event from propagating to the Tippy instance
+            instance.popper.querySelector('a').addEventListener('click', (event) => {
+                event.stopPropagation();
+            });
+        },
     });
+
 
 
 
